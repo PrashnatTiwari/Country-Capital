@@ -51,7 +51,7 @@ class Capitals extends Component {
 
   render() {
     const {activeCapitalId} = this.state
-    const {country} = this.getCountry(activeCapitalId)
+    const country = this.getCountry(activeCapitalId)
     return (
       <div className="app-container">
         <div className="capitals-container">
